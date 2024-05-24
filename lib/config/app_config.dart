@@ -18,6 +18,8 @@ abstract class AppConfig {
   static const Color primaryColor = Color(0xFF5625BA);
   static const Color primaryColorLight = Color(0xFFCCBDEA);
   static const Color secondaryColor = Color(0xFF41a2bc);
+  static const String metalApiUrl = 'https://us-central1-metal-men-8caa8.cloudfunctions.net/api';
+  static const String metalApiToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MDQyODMxOTN9.RMgimP1rVYQIfTb031ikk74Z5jtGCgYvw4HZm-CaA10';
   static String _privacyUrl =
       'https://github.com/krille-chan/fluffychat/blob/main/PRIVACY.md';
   static String get privacyUrl => _privacyUrl;
